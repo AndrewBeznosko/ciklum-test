@@ -22,3 +22,22 @@ body {
         display: block;
     }
 }
+
+.dropdown-toggle::after {
+    transform: translateY(1px);
+    margin-left: 10px;
+}
+
+.todo-done {
+    opacity: 0.6;
+
+    .shadow-sm {
+        box-shadow: none !important;
+    }
+}
+
+.dropdown-on {
+    .dropdown-menu {
+        display: block;
+    }
+}
