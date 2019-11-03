@@ -1,12 +1,308 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-100">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>webpack starterkit</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>webpack starterkit</title>
 </head>
-<body>
-  <h1>webpack starter</h1>
-  <p>✨ A lightweight foundation for your next webpack based frontend project.</p>
+
+<body class="bg-light d-flex flex-column h-100">
+    <header class="navbar navbar-dark bg-dark shadow-sm">
+        <div class="container d-flex justify-content-between">
+            <a href="#" class="navbar-brand d-flex align-items-center"><strong>TODOList</strong></a>
+        </div>
+    </header>
+    <main class="flex-shrink-0">
+        <div class="container my-5">
+
+            <form class="row">
+                <div class="col-md-4">
+                    <div class="input-group mb-3 mb-md-0 w-100 ">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">🔎</div>
+                        </div>
+                        <input type="search" class="form-control" id="search" placeholder="Search by title">
+                    </div>
+                </div>
+                <div class="col-md-2 col-6">
+                    <select class="form-control mb-3 mb-md-0 w-100 d-block">
+                        <option>all</option>
+                        <option>open</option>
+                        <option>done</option>
+                    </select>
+                </div>
+                <div class="col-md-2 col-6">
+                    <select class="form-control mb-3 mb-md-0 w-100 d-block">
+                        <option>all</option>
+                        <option>high</option>
+                        <option>normal</option>
+                        <option>low</option>
+                    </select>
+                </div>
+                <div class="col-md-2 col-6">
+                    <button type="button" class="btn btn-primary w-100 d-block">Create</button>
+                </div>
+            </form>
+            <hr class="my-5">
+
+            <div class="row">
+                <div class="col-md-4 mb-2">
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-header">
+                            <h5 class="card-title m-0">Card title</h5>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div class="d-flex justify-content-between align-items-center mt-5">
+                                <div class="alert alert-info py-1 px-4 m-0" role="alert">high</div>
+                                <button type="button" class="btn btn-sm btn-outline-secondary d-flex align-items-center">III</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-2">
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-header">
+                            <h5 class="card-title m-0">Card title</h5>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div class="d-flex justify-content-between align-items-center mt-5">
+                                <div class="alert alert-info py-1 px-4 m-0" role="alert">high</div>
+                                <button type="button" class="btn btn-sm btn-outline-secondary d-flex align-items-center">III</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-2">
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-header">
+                            <h5 class="card-title m-0">Card title</h5>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div class="d-flex justify-content-between align-items-center mt-5">
+                                <div class="alert alert-info py-1 px-4 m-0" role="alert">high</div>
+                                <button type="button" class="btn btn-sm btn-outline-secondary d-flex align-items-center">III</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-2">
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-header">
+                            <h5 class="card-title m-0">Card title</h5>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div class="d-flex justify-content-between align-items-center mt-5">
+                                <div class="alert alert-info py-1 px-4 m-0" role="alert">high</div>
+                                <button type="button" class="btn btn-sm btn-outline-secondary d-flex align-items-center">III</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-2">
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-header">
+                            <h5 class="card-title m-0">Card title</h5>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div class="d-flex justify-content-between align-items-center mt-5">
+                                <div class="alert alert-info py-1 px-4 m-0" role="alert">high</div>
+                                <button type="button" class="btn btn-sm btn-outline-secondary d-flex align-items-center">III</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-2">
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-header">
+                            <h5 class="card-title m-0">Card title</h5>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div class="d-flex justify-content-between align-items-center mt-5">
+                                <div class="alert alert-info py-1 px-4 m-0" role="alert">high</div>
+                                <button type="button" class="btn btn-sm btn-outline-secondary d-flex align-items-center">III</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-2">
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-header">
+                            <h5 class="card-title m-0">Card title</h5>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div class="d-flex justify-content-between align-items-center mt-5">
+                                <div class="alert alert-info py-1 px-4 m-0" role="alert">high</div>
+                                <button type="button" class="btn btn-sm btn-outline-secondary d-flex align-items-center">III</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-2">
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-header">
+                            <h5 class="card-title m-0">Card title</h5>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div class="d-flex justify-content-between align-items-center mt-5">
+                                <div class="alert alert-info py-1 px-4 m-0" role="alert">high</div>
+                                <button type="button" class="btn btn-sm btn-outline-secondary d-flex align-items-center">III</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-2">
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-header">
+                            <h5 class="card-title m-0">Card title</h5>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div class="d-flex justify-content-between align-items-center mt-5">
+                                <div class="alert alert-info py-1 px-4 m-0" role="alert">high</div>
+                                <button type="button" class="btn btn-sm btn-outline-secondary d-flex align-items-center">III</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-2">
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-header">
+                            <h5 class="card-title m-0">Card title</h5>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div class="d-flex justify-content-between align-items-center mt-5">
+                                <div class="alert alert-info py-1 px-4 m-0" role="alert">high</div>
+                                <button type="button" class="btn btn-sm btn-outline-secondary d-flex align-items-center">III</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-2">
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-header">
+                            <h5 class="card-title m-0">Card title</h5>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div class="d-flex justify-content-between align-items-center mt-5">
+                                <div class="alert alert-info py-1 px-4 m-0" role="alert">high</div>
+                                <button type="button" class="btn btn-sm btn-outline-secondary d-flex align-items-center">III</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-2">
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-header">
+                            <h5 class="card-title m-0">Card title</h5>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div class="d-flex justify-content-between align-items-center mt-5">
+                                <div class="alert alert-info py-1 px-4 m-0" role="alert">high</div>
+                                <button type="button" class="btn btn-sm btn-outline-secondary d-flex align-items-center">III</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-2">
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-header">
+                            <h5 class="card-title m-0">Card title</h5>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div class="d-flex justify-content-between align-items-center mt-5">
+                                <div class="alert alert-info py-1 px-4 m-0" role="alert">high</div>
+                                <button type="button" class="btn btn-sm btn-outline-secondary d-flex align-items-center">III</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-2">
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-header">
+                            <h5 class="card-title m-0">Card title</h5>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div class="d-flex justify-content-between align-items-center mt-5">
+                                <div class="alert alert-info py-1 px-4 m-0" role="alert">high</div>
+                                <button type="button" class="btn btn-sm btn-outline-secondary d-flex align-items-center">III</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-2">
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-header">
+                            <h5 class="card-title m-0">Card title</h5>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div class="d-flex justify-content-between align-items-center mt-5">
+                                <div class="alert alert-info py-1 px-4 m-0" role="alert">high</div>
+                                <button type="button" class="btn btn-sm btn-outline-secondary d-flex align-items-center">III</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-2">
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-header">
+                            <h5 class="card-title m-0">Card title</h5>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div class="d-flex justify-content-between align-items-center mt-5">
+                                <div class="alert alert-info py-1 px-4 m-0" role="alert">high</div>
+                                <button type="button" class="btn btn-sm btn-outline-secondary d-flex align-items-center">III</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer mt-auto py-3 border-top">
+        <div class="container">
+            <span class="text-muted">Andrew Beznosko</span>
+        </div>
+    </footer>
+
+    <!-- modal -->
+    <div class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Modal body text goes here.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="modal-backdrop fade show"></div> -->
 </body>
+
 </html>

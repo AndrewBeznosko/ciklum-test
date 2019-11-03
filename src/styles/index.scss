@@ -1,6 +1,16 @@
+@import "~bootstrap/scss/bootstrap";
+
 $body-color: slateblue;
 
 body {
-  color: $body-color;
-  font-family: sans-serif;
+    // color: $body-color;
+    // font-family: sans-serif;
+}
+
+.modal {
+    &.show {
+        display: block;
+    }
+
+    &::after {}
 }
